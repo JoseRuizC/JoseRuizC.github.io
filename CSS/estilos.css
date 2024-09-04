@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Nerko+One&display=swap');
 body{
     background-color: rgb(173, 255, 100);
-    background-image: url('../imagen/destiny\ 2\ caza.jpg');
+    background-image: url(../imagen/destiny\ 2\ caza.jpg);
     background-size: bottom;
     background-position: cover;
     font-family: "Handjet", sans-serif;
