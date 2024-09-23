@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de selectores</title>
+    <!---Slectores por elemento-->
+    <style>
+        /**/
+        div{
+            width: 50px;
+            height: 50px;
+            background-color:#d3d3d3;
+            display: inline-block;
+            /*border: 1px solid black;*/
+            border-width: 1px;
+            border-style: solid;
+            border-color: blue;
+        }
+             /* por id */
+        #caja{
+            background-color: greenyellow;
+        }
+        /* Por Clase */
+        .circulo1{
+            background-color: yellow;
+            border-radius: 100%;
+        }
+        #caja1{
+            background-color: yellow;
+        }
+        
+        #caja5{
+            background-color: red;
+        }
+        #caja7{
+            background-color:yellow;
+            
+        }
+        .Amarillo{
+            background-color:yellow !important; 
+        }
+        /* pseudoclase */
+        div:hover{
+            background-color: black !important;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="caja1" clas="Amarillo"></div>
+    <div id="caja"></div>
+    <div class="circulo1" clas="Amarillo"></div>
+    <div class="circulo2"></div>
+    <div id="caja5"></div>
+    <div  class="circulo"></div>
+    <div id="caja7" class="Amarillo"></div>
+</body>
+</html>
