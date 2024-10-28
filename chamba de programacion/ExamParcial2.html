@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelis</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+    h1{
+        text-align: center;
+        color:white;
+    }
+    .grid-conteiner{ 
+            display:grid;
+            grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+            margin: auto;
+            padding: 20px;
+    }
+    .pelis-card{
+        background-color: aqua;
+        border-radius: 10px;
+        box-shadow: 0px 4px rgba(0,0,0,0,1);
+        text-align: center;
+        padding: 20px;
+    }
+    </style>
+    <h1>Repositorio de Peliculas</h1>
+</head>
+<body>
+    <script src="exam2.js"></script> 
+    <div class="grid-conteiner" id="Pelis-grid"></div>
+</body>
+</html>
